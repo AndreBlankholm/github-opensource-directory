@@ -344,8 +344,14 @@ p {
   .col-sm-12 {
     flex: 0 0 100%;
   }
+
 }
 
+@media screen and (max-width: 767px){
+  .card {
+    width: 100%;
+  }
+}
 
 /* col-md */
 @media screen and (min-width: 768px) {
@@ -396,6 +402,8 @@ p {
   .col-md-12 {
     flex: 0 0 100%;
   }
+
+  
 }
 
 /* col-lg */
